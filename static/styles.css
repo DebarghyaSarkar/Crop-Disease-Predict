@@ -1,0 +1,242 @@
+/* ================================================= */
+/* GLOBAL STYLES & TYPOGRAPHY */
+/* ================================================= */
+:root {
+    --primary-color: #4CAF50; /* A pleasant green */
+    --primary-dark: #45a049;
+    --background-start: #E6F5E9; /* Light green start for gradient */
+    --background-end: #D0EAD6; /* Slightly darker green end for gradient */
+    --card-background: #FFFFFF;
+    --text-color: #333;
+    --sub-text-color: #666;
+    --border-color: #E0E0E0;
+    --shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* --- MODIFIED LINE: Added gradient background --- */
+    background: linear-gradient(to bottom right, var(--background-start), var(--background-end));
+    /* --- END MODIFIED LINE --- */
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-header {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.app-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-dark);
+    margin-bottom: 5px;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: var(--card-background);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ================================================= */
+/* UPLOADER SECTION */
+/* ================================================= */
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.file-uploader {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Custom file input button */
+.custom-file-upload {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.custom-file-upload:hover {
+    background-color: var(--primary-dark);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.predict-button {
+    background-color: #E0E0E0;
+    color: #999;
+    border: none;
+    padding: 12px 24px;
+    cursor: not-allowed;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.predict-button:not([disabled]) {
+    background-color: #2196F3; /* A nice blue for action */
+    color: white;
+    cursor: pointer;
+}
+
+.predict-button:not([disabled]):hover {
+    background-color: #1976D2;
+}
+
+.file-name-display {
+    font-style: italic;
+    color: var(--sub-text-color);
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* ================================================= */
+/* IMAGE PREVIEW */
+/* ================================================= */
+.image-preview-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 2px dashed var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #FAFAFA;
+}
+
+.image-preview {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: none; /* Hidden by default */
+}
+
+/* ================================================= */
+/* DROP ZONE SPECIFIC STYLES */
+/* ================================================= */
+.drop-zone {
+    text-align: center;
+    padding: 30px;
+}
+
+.drop-zone-text {
+    font-size: 1rem;
+    color: var(--sub-text-color);
+    margin: 0;
+}
+
+.drop-zone.drag-over {
+    background-color: #E6F5E9; /* Lighter green for drag-over effect */
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.4);
+}
+
+/* ================================================= */
+/* RESULT SECTION */
+/* ================================================= */
+.result-section {
+    border-top: 1px solid var(--border-color);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.result-content {
+    background-color: #E8F5E9; /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+}
+
+.result-title {
+    font-size: 1.5rem;
+    color: var(--primary-dark);
+    margin: 0 0 10px;
+}
+
+.result-detail {
+    font-size: 1.1rem;
+    color: var(--sub-text-color);
+    margin: 0;
+}
+
+.result-text {
+    font-weight: 700;
+    color: #222;
+}
+
+.remedy-container {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.remedy-title {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.remedy-text {
+    white-space: pre-wrap;
+    font-family: inherit;
+    margin: 0;
+    color: var(--sub-text-color);
+}
+
+/* top-predictions section is removed from JS, so no need for specific CSS here,
+   but I'll keep the empty styling for robustness in case it's used elsewhere
+*/
+.top-predictions ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-predictions li {
+    background-color: #FAFAFA;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border: 1px solid var(--border-color);
+    font-size: 0.9em;
+}
+
+.app-note {
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--sub-text-color);
+}

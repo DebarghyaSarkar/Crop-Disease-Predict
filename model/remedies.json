@@ -1,0 +1,192 @@
+{
+    "Tomato___Late_blight": {
+        "organic": "Spray neem oil; remove infected parts early.",
+        "chemical": "Use copper fungicide; apply metalaxyl-based fungicides.",
+        "prevention": "Ensure good drainage; avoid wet leaves overnight; crop rotation."
+    },
+    "Tomato___healthy": {
+        "organic": "Maintain soil health with compost and neem cake.",
+        "chemical": "None required.",
+        "prevention": "Regular monitoring, proper irrigation, and avoid overcrowding."
+    },
+    "Grape___healthy": {
+        "organic": "Mulching and use of organic fertilizers.",
+        "chemical": "None required.",
+        "prevention": "Proper pruning, canopy management, and disease-free seedlings."
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+        "organic": "Introduce natural predators of psyllid insects; neem sprays.",
+        "chemical": "Apply systemic insecticides (imidacloprid, thiamethoxam).",
+        "prevention": "Remove infected trees; use disease-free planting stock."
+    },
+    "Soybean___healthy": {
+        "organic": "Apply rhizobium inoculants and compost.",
+        "chemical": "None required.",
+        "prevention": "Crop rotation and weed management."
+    },
+    "Squash___Powdery_mildew": {
+        "organic": "Spray milk solution (1:9 ratio with water) or neem oil.",
+        "chemical": "Sulfur dusting or fungicides like trifloxystrobin.",
+        "prevention": "Plant resistant varieties; ensure good airflow."
+    },
+    "Potato___healthy": {
+        "organic": "Use farmyard manure and mulch.",
+        "chemical": "None required.",
+        "prevention": "Rotate crops; use certified seed potatoes."
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+        "organic": "Apply compost tea or neem-based sprays.",
+        "chemical": "Fungicides with azoxystrobin or pyraclostrobin.",
+        "prevention": "Plant resistant hybrids; rotate with non-host crops."
+    },
+    "Tomato___Early_blight": {
+        "organic": "Use compost tea or neem oil sprays.",
+        "chemical": "Chlorothalonil or copper-based fungicides.",
+        "prevention": "Avoid overhead irrigation; rotate crops regularly."
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "organic": "Remove affected leaves; apply baking soda spray.",
+        "chemical": "Use fungicides like mancozeb or chlorothalonil.",
+        "prevention": "Avoid water splashing; provide staking for airflow."
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+        "organic": "Neem oil sprays; intercropping to reduce spread.",
+        "chemical": "Fungicides containing strobilurins or triazoles.",
+        "prevention": "Rotate crops and use resistant maize varieties."
+    },
+    "Strawberry___Leaf_scorch": {
+        "organic": "Apply compost tea; remove damaged leaves.",
+        "chemical": "Use copper fungicides if severe.",
+        "prevention": "Ensure good air circulation; avoid overhead watering."
+    },
+    "Peach___healthy": {
+        "organic": "Apply compost and mulching.",
+        "chemical": "None required.",
+        "prevention": "Prune trees regularly; monitor for pests."
+    },
+    "Apple___Apple_scab": {
+        "organic": "Apply sulfur sprays and neem oil.",
+        "chemical": "Captan or mancozeb fungicides.",
+        "prevention": "Prune trees and remove fallen leaves."
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "organic": "Use neem oil to control whiteflies.",
+        "chemical": "Apply insecticides targeting whiteflies.",
+        "prevention": "Plant resistant varieties; use row covers."
+    },
+    "Tomato___Bacterial_spot": {
+        "organic": "Copper-based sprays; remove infected parts.",
+        "chemical": "Fixed copper fungicides.",
+        "prevention": "Avoid working with wet plants; use certified seeds."
+    },
+    "Apple___Black_rot": {
+        "organic": "Prune infected twigs; apply compost tea.",
+        "chemical": "Fungicides like thiophanate-methyl.",
+        "prevention": "Remove mummified fruits; maintain orchard hygiene."
+    },
+    "Blueberry___healthy": {
+        "organic": "Use pine mulch and organic fertilizers.",
+        "chemical": "None required.",
+        "prevention": "Monitor for fungal infections and prune regularly."
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+        "organic": "Neem oil or sulfur sprays.",
+        "chemical": "Fungicides containing triflumizole or myclobutanil.",
+        "prevention": "Prune for airflow; avoid excess nitrogen fertilizer."
+    },
+    "Peach___Bacterial_spot": {
+        "organic": "Apply compost tea; prune infected branches.",
+        "chemical": "Copper sprays during dormant season.",
+        "prevention": "Plant resistant cultivars; maintain sanitation."
+    },
+    "Apple___Cedar_apple_rust": {
+        "organic": "Remove nearby juniper hosts; neem sprays.",
+        "chemical": "Myclobutanil or propiconazole fungicides.",
+        "prevention": "Plant resistant apple varieties; remove galls early."
+    },
+    "Tomato___Target_Spot": {
+        "organic": "Neem oil sprays; remove lower leaves.",
+        "chemical": "Chlorothalonil or mancozeb fungicides.",
+        "prevention": "Improve air circulation and avoid overhead watering."
+    },
+    "Pepper,_bell___healthy": {
+        "organic": "Use compost and mulch.",
+        "chemical": "None required.",
+        "prevention": "Regular monitoring and balanced fertilization."
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "organic": "Neem or garlic extract sprays.",
+        "chemical": "Copper fungicides or carbendazim.",
+        "prevention": "Proper pruning and canopy management."
+    },
+    "Potato___Late_blight": {
+        "organic": "Neem oil sprays; remove infected leaves.",
+        "chemical": "Fungicides with metalaxyl or mancozeb.",
+        "prevention": "Use certified seeds; ensure good drainage."
+    },
+    "Tomato___Tomato_mosaic_virus": {
+        "organic": "Use resistant varieties; disinfect tools.",
+        "chemical": "No effective chemical control.",
+        "prevention": "Avoid handling plants after smoking; use clean seeds."
+    },
+    "Strawberry___healthy": {
+        "organic": "Use organic compost and mulching.",
+        "chemical": "None required.",
+        "prevention": "Keep soil well-drained and avoid overcrowding."
+    },
+    "Apple___healthy": {
+        "organic": "Apply organic fertilizers and mulch.",
+        "chemical": "None required.",
+        "prevention": "Prune regularly and monitor for pests."
+    },
+    "Grape___Black_rot": {
+        "organic": "Neem sprays and removal of infected fruit.",
+        "chemical": "Mancozeb or myclobutanil fungicides.",
+        "prevention": "Remove mummified grapes; prune for airflow."
+    },
+    "Potato___Early_blight": {
+        "organic": "Compost tea; remove lower leaves.",
+        "chemical": "Fungicides with chlorothalonil.",
+        "prevention": "Crop rotation and proper irrigation management."
+    },
+    "Cherry_(including_sour)___healthy": {
+        "organic": "Apply organic mulch and compost.",
+        "chemical": "None required.",
+        "prevention": "Prune trees for airflow and monitor pests."
+    },
+    "Corn_(maize)___Common_rust_": {
+        "organic": "Neem sprays and compost application.",
+        "chemical": "Fungicides containing strobilurins.",
+        "prevention": "Plant resistant hybrids; avoid dense planting."
+    },
+    "Grape___Esca_(Black_Measles)": {
+        "organic": "Remove infected wood and apply bio-control agents.",
+        "chemical": "No effective chemical cure; fungicides only preventive.",
+        "prevention": "Maintain vineyard hygiene; avoid trunk injuries."
+    },
+    "Raspberry___healthy": {
+        "organic": "Mulching and compost application.",
+        "chemical": "None required.",
+        "prevention": "Prune canes; improve airflow."
+    },
+    "Tomato___Leaf_Mold": {
+        "organic": "Neem sprays and baking soda solution.",
+        "chemical": "Copper fungicides.",
+        "prevention": "Plant resistant varieties and reduce humidity."
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+        "organic": "Spray with insecticidal soap or neem oil.",
+        "chemical": "Miticides like abamectin.",
+        "prevention": "Keep plants hydrated; encourage natural predators."
+    },
+    "Pepper,_bell___Bacterial_spot": {
+        "organic": "Neem oil and copper sprays.",
+        "chemical": "Fixed copper bactericides.",
+        "prevention": "Avoid wet foliage and use disease-free seeds."
+    },
+    "Corn_(maize)___healthy": {
+        "organic": "Apply compost and balanced organic fertilizers.",
+        "chemical": "None required.",
+        "prevention": "Use crop rotation and proper irrigation."
+    }
+}
