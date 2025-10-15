@@ -1,13 +1,15 @@
 ---
-title: My Gradio App
-emoji: 🚀
-colorFrom: blue
-colorTo: green
-sdk: gradio
-app_file: app.py
+---
+title: My Flask App
+emoji: 🌐
+colorFrom: yellow
+colorTo: orange
+sdk: docker
+app_port: 7860
 pinned: false
 ---
+---
 
-# My Gradio App
+# My Flask App
 
-This is a Gradio app running on Hugging Face Spaces.
+This is a Flask app running on Hugging Face Spaces.
