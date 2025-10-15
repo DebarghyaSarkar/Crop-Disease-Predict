@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout GitHub repo
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Install Hugging Face Hub
       - name: Install Hugging Face Hub
         run: pip install --upgrade huggingface_hub
 
-      # Step 3: Upload repo to Hugging Face Space
       - name: Upload to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -29,8 +26,8 @@ jobs:
 
             api = HfApi()
             api.upload_folder(
-                folder_path=".",                  # Upload all files from repo
-                repo_id="Deba4/NewSpace1",        # Your Hugging Face Space
+                folder_path=".",                  
+                repo_id="Deba4/NewSpace1",        
                 repo_type="space",
                 token=os.environ["HF_TOKEN"]
             )
