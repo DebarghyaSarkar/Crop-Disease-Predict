@@ -34,5 +34,5 @@ jobs:
                 repo_type="space",
                 token=os.environ["HF_TOKEN"]
             )
-            print("✅ Successfully deployed to Hugging Face Space!")
-PY
+            print("✅ Successfully deployed to Hugging Face Space!")  
+         PY
