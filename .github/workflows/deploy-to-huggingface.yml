@@ -16,7 +16,7 @@ jobs:
         run: pip install --upgrade huggingface_hub
 
       - name: Push to Hugging Face Hub
-        uses: huggingface/hub-action@v0
+        uses: huggingface/hub-action@41935b6999a341e2193f4e6d78b87122e113a776
         with:
           repo_id: "Deba4/NewSpace1"
           repo_type: space
