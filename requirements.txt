@@ -7,4 +7,4 @@ torch
 torchvision
 torchaudio
 
-gunicorn
+huggingface_hub
