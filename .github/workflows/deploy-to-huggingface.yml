@@ -15,21 +15,9 @@ jobs:
       - name: Install Hugging Face Hub
         run: pip install --upgrade huggingface_hub
 
-      # This step is now correctly indented to match the others
-      - name: Upload to Hugging Face Space
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: |
-          python - <<'PY'
-          from huggingface_hub import HfApi
-          import os
-
-          api = HfApi()
-          api.upload_folder(
-              folder_path=".",
-              repo_id="Deba4/NewSpace1",
-              repo_type="space",
-              token=os.environ["HF_TOKEN"]
-          )
-          print("✅ Successfully deployed to Hugging Face Space!")
-          PY
+    - name: Push to Hugging Face Hub
+      uses: huggingface/hub-action@v1
+      with:
+        repo_id: "Deba4/NewSpace1"
+        repo_type: space
+        token: ${{ secrets.HF_TOKEN }}
